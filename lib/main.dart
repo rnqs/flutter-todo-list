@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'widgets/todo_list.dart';
+import 'widgets/todo_list_screen.dart';
 
 void main() => runApp(MyApp());
 
@@ -9,7 +9,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'To-do List',
-      home: TodoList(),
+      home: TodoListScreen(),
     );
   }
 }

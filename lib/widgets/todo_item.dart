@@ -1,6 +1,6 @@
-class Todo {
+class TodoItem {
   String title;
   bool isDone;
 
-  Todo({this.title, this.isDone = false});
+  TodoItem({this.title, this.isDone = false});
 }
