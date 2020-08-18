@@ -30,10 +30,12 @@
 ## :dart: Roadmap
 
 - [x] Add to-do
-- [ ] Edit to-do
-- [ ] Remove to-do
+- [x] Edit to-do
+- [x] Remove to-do
 - [ ] Add dark mode
 - [ ] Add persistance
+- [ ] Add icons to the to-do
+- [ ] Add description to the to-do
 
 ## :computer: Run
 

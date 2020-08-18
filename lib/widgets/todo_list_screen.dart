@@ -3,6 +3,7 @@ import 'package:ftrprt1/widgets/todo_list.dart';
 
 import 'todo_item.dart';
 import 'new_todo_dialog.dart';
+import 'manage_todo_dialog.dart';
 
 class TodoListScreen extends StatefulWidget {
   @override
@@ -32,6 +33,27 @@ class _TodoListScreenState extends State<TodoListScreen> {
     }
   }
 
+  _manageTodo(BuildContext context, int index) async {
+    _remove() {
+      setState(() {
+        todos.removeAt(index);
+      });
+    }
+
+    final todo = await showDialog<TodoItem>(
+      context: context,
+      builder: (BuildContext context) {
+        return ManageTodoDialog(onRemoveTodo: _remove, todoItem: todos[index]);
+      },
+    );
+
+    if (todo != null) {
+      setState(() {
+        todos[index] = todo;
+      });
+    }
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -40,6 +62,7 @@ class _TodoListScreenState extends State<TodoListScreen> {
       ),
       body: TodoList(
         todos: todos,
+        onTodoItemIsEdited: _manageTodo,
         onTodoItemToggle: _toggleTodo,
       ),
       floatingActionButton: FloatingActionButton(

@@ -17,7 +17,7 @@ class NewTodoDialog extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return AlertDialog(
-      title: Text('New todo'),
+      title: Text('New to-do'),
       content: TextField(
         controller: titleInputController,
         autofocus: true,
