@@ -20,8 +20,6 @@ jobs:
         channel: 'beta'
     - name: Install dependencies
       run: flutter pub get
-    - name: Run tests
-      run: flutter test
     - name: Generate build
       run: flutter build apk
     - name: Upload a Build Artifact
