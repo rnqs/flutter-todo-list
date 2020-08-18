@@ -20,6 +20,7 @@ class TodoList extends StatelessWidget {
         onLongPress: () => onTodoItemIsEdited(context, index),
         child: CheckboxListTile(
           title: Text(todo.title),
+          activeColor: ThemeData().accentColor,
           value: todo.isDone,
           controlAffinity: ListTileControlAffinity.leading,
           onChanged: (bool isChecked) {

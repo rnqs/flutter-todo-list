@@ -35,7 +35,7 @@
 - [x] Add to-do
 - [x] Edit to-do
 - [x] Remove to-do
-- [ ] Add dark mode
+- [x] Add dark mode
 - [ ] Add persistance
 - [ ] Add icons to the to-do
 - [ ] Add description to the to-do
