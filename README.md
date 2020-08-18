@@ -3,11 +3,14 @@
 <p align="center">
     <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/RenanArques/flutter-todo-list">
     <img alt="Repository size" src="https://img.shields.io/github/repo-size/RenanArques/flutter-todo-list">
+    <a href="https://github.com/RenanArques/flutter-todo-list/blob/master/LICENSE">
+      <img alt="GitHub license" src="https://img.shields.io/github/license/RenanArques/flutter-todo-list">
+    </a>
     <a href="https://github.com/RenanArques/flutter-todo-list/commits/master">
       <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/RenanArques/flutter-todo-list">
     </a>
-    <a href="https://github.com/RenanArques/flutter-todo-list/blob/master/LICENSE">
-      <img alt="GitHub license" src="https://img.shields.io/github/license/RenanArques/flutter-todo-list">
+    <a href="https://github.com/RenanArques/flutter-todo-list/releases">
+      <img alt="GitHub release" src="https://img.shields.io/github/v/release/RenanArques/flutter-todo-list.svg?include_prereleases">
     </a>
 </p>
 
